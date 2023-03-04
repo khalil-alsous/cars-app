@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars App</title>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="sticky-sections">
+        <!-- START: CONTACT -->
+        <section class="contact">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="">
+                        <div class="d-flex align-items-center gap-4">
+                            <span class="d-flex align-items-center gap-2">
+                                <img src="assets/images/icons/mail.svg" alt="">
+                                <h6>Bil173@hotmail.com</h6>
+                            </span>
+                            <span class="vertical-separator"></span>
+                            <span class="d-flex align-items-center gap-2">
+                                <img src="assets/images/icons/phone.svg" alt="">
+                                <h6>+46 79 077 87 88</h6>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="social light">
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20 14.19C20 17.83 17.83 20 14.19 20H13C12.45 20 12 19.55 12 19V13.23C12 12.96 12.22 12.73 12.49 12.73L14.25 12.7C14.39 12.69 14.51 12.59 14.54 12.45L14.89 10.54C14.8968 10.4967 14.8941 10.4525 14.8822 10.4103C14.8702 10.3681 14.8492 10.3291 14.8207 10.2958C14.7922 10.2625 14.7568 10.2358 14.717 10.2176C14.6771 10.1993 14.6338 10.1899 14.59 10.19L12.46 10.22C12.18 10.22 11.96 10 11.95 9.73L11.91 7.28C11.91 7.12 12.04 6.98 12.21 6.98L14.61 6.94C14.78 6.94 14.91 6.81 14.91 6.64L14.87 4.24C14.87 4.07 14.74 3.94 14.57 3.94L11.87 3.98C11.4759 3.98599 11.0868 4.06969 10.725 4.22632C10.3633 4.38295 10.0361 4.60942 9.76201 4.89276C9.48796 5.1761 9.27252 5.51073 9.12803 5.87748C8.98354 6.24422 8.91285 6.63588 8.92 7.03L8.97 9.78C8.98 10.06 8.76 10.28 8.48 10.29L7.28 10.31C7.11 10.31 6.98 10.44 6.98 10.61L7.01 12.51C7.01 12.68 7.14 12.81 7.31 12.81L8.51 12.79C8.79 12.79 9.01 13.01 9.02 13.28L9.11 18.98C9.12 19.54 8.67 20 8.11 20H5.81C2.17 20 0 17.83 0 14.18V5.81C0 2.17 2.17 0 5.81 0H14.19C17.83 0 20 2.17 20 5.81V14.19Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.18C0 17.83 2.17 20 5.81 20H14.18C17.82 20 19.99 17.83 19.99 14.19V5.81C20 2.17 17.83 0 14.19 0ZM10 13.88C7.86 13.88 6.12 12.14 6.12 10C6.12 7.86 7.86 6.12 10 6.12C12.14 6.12 13.88 7.86 13.88 10C13.88 12.14 12.14 13.88 10 13.88ZM15.92 4.88C15.87 5 15.8 5.11 15.71 5.21C15.61 5.3 15.5 5.37 15.38 5.42C15.198 5.49725 14.9971 5.51853 14.803 5.48113C14.6089 5.44372 14.4303 5.34933 14.29 5.21C14.2 5.11 14.13 5 14.08 4.88C14.0286 4.75982 14.0015 4.63069 14 4.5C14 4.37 14.03 4.24 14.08 4.12C14.13 3.99 14.2 3.89 14.29 3.79C14.52 3.56 14.87 3.45 15.19 3.52C15.26 3.53 15.32 3.55 15.38 3.58C15.44 3.6 15.5 3.63 15.56 3.67C15.61 3.7 15.66 3.75 15.71 3.79C15.8 3.89 15.87 3.99 15.92 4.12C15.97 4.24 16 4.37 16 4.5C16 4.63 15.97 4.76 15.92 4.88Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.9869 0C12.5113 0 13.9395 0.289128 15.2712 0.867383C16.6029 1.44564 17.7682 2.22979 18.767 3.21983C19.7658 4.20988 20.5544 5.37077 21.1326 6.70251C21.7109 8.03425 22 9.46237 22 10.9869C22 12.5113 21.7109 13.9395 21.1326 15.2712C20.5544 16.6029 19.7658 17.7682 18.767 18.767C17.7682 19.7658 16.6029 20.5544 15.2712 21.1326C13.9395 21.7109 12.5113 22 10.9869 22C9.46237 22 8.03425 21.7109 6.70251 21.1326C5.37077 20.5544 4.20988 19.7658 3.21983 18.767C2.22979 17.7682 1.44564 16.6029 0.867383 15.2712C0.289128 13.9395 0 12.5113 0 10.9869C0 9.46237 0.289128 8.03425 0.867383 6.70251C1.44564 5.37077 2.22979 4.20988 3.21983 3.21983C4.20988 2.22979 5.37077 1.44564 6.70251 0.867383C8.03425 0.289128 9.46237 0 10.9869 0ZM16.454 8.62127C16.9622 8.23576 17.409 7.77141 17.7945 7.2282C17.5492 7.33333 17.2995 7.42095 17.0454 7.49104C16.7913 7.56113 16.5241 7.6137 16.2437 7.64875C16.5241 7.47352 16.7694 7.25886 16.9797 7.00478C17.19 6.7507 17.3389 6.47471 17.4265 6.17682C17.1637 6.31701 16.8921 6.44405 16.6117 6.55794C16.3313 6.67184 16.0422 6.75508 15.7443 6.80765C15.499 6.56233 15.2099 6.36081 14.8769 6.20311C14.544 6.0454 14.176 5.96655 13.773 5.96655C13.405 5.96655 13.0589 6.03664 12.7348 6.17682C12.4106 6.31701 12.1302 6.50976 11.8937 6.75508C11.6571 7.0004 11.4687 7.28515 11.3286 7.60932C11.1884 7.93349 11.1183 8.27957 11.1183 8.64755C11.1183 8.75269 11.1227 8.85783 11.1314 8.96296C11.1402 9.0681 11.1533 9.16448 11.1708 9.25209C10.0669 9.19952 9.04182 8.92792 8.09558 8.43728C7.14934 7.94663 6.34329 7.28953 5.67742 6.46595C5.4321 6.86898 5.30944 7.31581 5.30944 7.80645C5.30944 8.26205 5.41896 8.68698 5.63799 9.08124C5.85703 9.47551 6.14178 9.7953 6.49223 10.0406C6.03664 10.0056 5.63361 9.89168 5.28315 9.69892V9.72521C5.28315 10.3911 5.48905 10.965 5.90084 11.4468C6.31262 11.9287 6.82517 12.231 7.43847 12.3536C7.31581 12.3887 7.19753 12.415 7.08363 12.4325C6.96973 12.45 6.85145 12.4588 6.72879 12.4588C6.64118 12.4588 6.55794 12.4544 6.47909 12.4456C6.40024 12.4369 6.31701 12.4237 6.22939 12.4062C6.40462 12.9319 6.71565 13.37 7.16249 13.7204C7.60932 14.0709 8.13062 14.2461 8.7264 14.2461C8.27081 14.6141 7.75826 14.8988 7.18877 15.1004C6.61928 15.3019 6.02788 15.4026 5.41458 15.4026C5.29192 15.4026 5.17802 15.3982 5.07288 15.3895C4.96774 15.3807 4.8626 15.3676 4.75747 15.3501C5.35325 15.7356 5.99721 16.0335 6.68937 16.2437C7.38152 16.454 8.10434 16.5591 8.85783 16.5591C10.0844 16.5591 11.1708 16.327 12.1171 15.8626C13.0633 15.3982 13.8562 14.8025 14.4958 14.0753C15.1354 13.3481 15.6217 12.5333 15.9546 11.6308C16.2875 10.7284 16.454 9.83911 16.454 8.96296V8.62127Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.9869 0C12.5113 0 13.9395 0.289128 15.2712 0.867383C16.6029 1.44564 17.7682 2.22979 18.767 3.21983C19.7658 4.20988 20.5544 5.37077 21.1326 6.70251C21.7109 8.03425 22 9.46237 22 10.9869C22 12.5113 21.7109 13.9395 21.1326 15.2712C20.5544 16.6029 19.7658 17.7682 18.767 18.767C17.7682 19.7658 16.6029 20.5544 15.2712 21.1326C13.9395 21.7109 12.5113 22 10.9869 22C9.46237 22 8.03425 21.7109 6.70251 21.1326C5.37077 20.5544 4.20988 19.7658 3.21983 18.767C2.22979 17.7682 1.44564 16.6029 0.867383 15.2712C0.289128 13.9395 0 12.5113 0 10.9869C0 9.46237 0.289128 8.03425 0.867383 6.70251C1.44564 5.37077 2.22979 4.20988 3.21983 3.21983C4.20988 2.22979 5.37077 1.44564 6.70251 0.867383C8.03425 0.289128 9.46237 0 10.9869 0ZM7.56989 8.25329H4.81004V17.19H7.56989V8.25329ZM6.17682 7.54361C6.56233 7.54361 6.89088 7.41219 7.16249 7.14934C7.43409 6.8865 7.56989 6.56233 7.56989 6.17682C7.56989 5.79132 7.43409 5.46714 7.16249 5.2043C6.89088 4.94146 6.56233 4.81004 6.17682 4.81004C5.79132 4.81004 5.46714 4.94146 5.2043 5.2043C4.94146 5.46714 4.81004 5.79132 4.81004 6.17682C4.81004 6.56233 4.94146 6.8865 5.2043 7.14934C5.46714 7.41219 5.79132 7.54361 6.17682 7.54361ZM17.19 12.0119C17.19 11.3811 17.0147 10.7634 16.6643 10.1589C16.3138 9.55436 15.8582 9.09438 15.2975 8.77897C14.7893 8.49861 14.1979 8.34966 13.5233 8.33214C12.8487 8.31462 12.231 8.42851 11.6703 8.67383V8.25329H8.93668V17.19H11.6703V11.7228L12.8268 11.1708C12.9669 11.1008 13.1553 11.0657 13.3919 11.0657C13.6284 11.0657 13.8168 11.1095 13.957 11.1971C14.0621 11.2497 14.1673 11.3636 14.2724 11.5388C14.3775 11.7141 14.4301 11.8718 14.4301 12.0119V17.19H17.19V12.0119Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a href="#">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM15.31 13.31C15.02 13.47 14.78 13.54 14.58 13.59C14.41 13.63 14.27 13.67 14.15 13.75C14.02 13.83 14.01 13.96 13.99 14.08C13.97 14.19 13.96 14.28 13.88 14.34C13.79 14.4 13.62 14.41 13.39 14.42C13.09 14.44 12.71 14.45 12.25 14.59C12.03 14.67 11.83 14.79 11.63 14.91C11.23 15.16 10.78 15.43 9.99 15.43C9.21 15.43 8.76 15.16 8.36 14.91C8.16 14.78 7.96 14.66 7.73 14.58C7.35981 14.4703 6.97608 14.4131 6.59 14.41C6.36 14.4 6.2 14.39 6.1 14.33C6.02 14.28 6.01 14.18 5.99 14.07C5.97 13.95 5.96 13.82 5.83 13.74C5.71 13.66 5.56 13.62 5.4 13.57C5.2 13.52 4.96 13.46 4.67 13.3C4.33 13.11 4.53 13 4.64 12.94C6.57 12.01 6.87 10.57 6.88 10.46V10.44C6.9 10.32 6.91 10.22 6.77 10.09C6.68 10 6.37 9.8 6.12 9.64C6.01 9.56 5.91 9.5 5.85 9.47C5.57 9.27 5.45 9.08 5.54 8.83C5.6 8.66 5.76 8.6 5.92 8.6C5.97 8.6 6.03 8.61 6.07 8.62C6.25 8.66 6.43 8.73 6.59 8.79C6.7 8.84 6.79 8.87 6.86 8.89C6.88 8.9 6.91 8.9 6.92 8.9C7.02 8.9 7.05 8.85 7.04 8.75C7.04 8.72 7.04 8.69 7.03 8.66C7.01 8.31 6.98 7.7 7.02 7.14C7.1 6.3 7.37 5.87 7.69 5.51C7.85 5.33 8.58 4.56 9.97 4.56C11.37 4.56 12.09 5.33 12.25 5.5C12.57 5.87 12.84 6.29 12.92 7.14C12.97 7.73 12.93 8.36 12.9 8.71V8.74C12.89 8.85 12.92 8.89 13.02 8.89C13.04 8.89 13.06 8.89 13.08 8.88C13.15 8.86 13.24 8.83 13.35 8.79C13.5 8.73 13.68 8.66 13.87 8.62C13.92 8.6 13.97 8.6 14.02 8.6C14.19 8.6 14.34 8.67 14.4 8.84C14.49 9.08 14.37 9.27 14.09 9.47C14.04 9.51 13.94 9.58 13.82 9.64C13.58 9.8 13.26 10 13.17 10.09C13.03 10.22 13.04 10.32 13.06 10.44V10.46C13.08 10.57 13.38 12.01 15.3 12.94C15.45 13 15.65 13.12 15.31 13.31Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: CONTACT -->
+
+        <!-- START: Header -->
+        <header>
+            <nav class="main-navbar navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container gap-3">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/logo.svg" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse gap-3" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Om oss</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hur det fungerar </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Testimonials </a>
+                            </li>
+                        </ul>
+                        <div class="d-flex gap-3">
+                            <button type="button" class="btn btn-theme btn-fill-red">
+                                Sälj den nu!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- END: Header -->
+    </div>
+
+    <main>
+        <!-- START: hero -->
+        <div class="top-padding">
+            <section class="hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="mb-3">
+                                Funderar du
+                                på att sälja din älskade bil?
+                            </h1>
+                            <p class="mb-4">Sälj bilen utan krångel.
+                                Få en offert på din bil, snabbt och gratis.</p>
+                            <button type="button" class="btn btn-theme btn-fill-red">
+                                Utvärdera din bil
+                                <img src="assets/images/icons/right-arrow.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- END: hero -->
+
+        <!-- START: about -->
+        <section class="about section-padding">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-6">
+                        <h1 class="mb-3 fw-bold">
+                            Vem är Y Biloutlet AB?
+                        </h1>
+                        <p class="mb-3 fw-medium">Vi köper din begagnade bil oavsett skick. Vi erbjuder hämtning
+                            över hela Sverige.
+                        </p>
+                        <p class="mb-4 fw-medium">Vi erbjuder en snabb och enkel service för att sälja din begagnade
+                            bil, utan krångel och villkor. Ge din begagnade bil ett nytt kapitel
+                            tillsammans med en ny ägare.
+                        </p>
+                        <button type="button" class="btn btn-theme btn-fill-red">
+                            Sälj den nu
+                            <img src="assets/images/icons/right-arrow.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <img src="assets/images/about.png" alt="" class="section-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: about -->
+
+        <!-- START: How to work -->
+        <section class="how-to-work section-padding gray-section">
+            <div class="container">
+                <h1 class="mb-5 fw-600">Hur det fungerar?</h1>
+                <div class="row align-items-center row-cols-1 row-cols-md-3 g-5">
+                    <div class="col">
+                        <div class="card align-items-center">
+                            <img src="assets/images/icons/registration-form 1.svg" alt="" width="92px">
+                            <p class="text-center">Ange ditt registreringsnummer
+                                och kontaktuppgifter</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card align-items-center">
+                            <img src="assets/images/icons/car.svg" alt="" width="92px">
+                            <p class="text-center">Få en kostnadsfri värdering på
+                                några minuter via telefon eller mail</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card align-items-center">
+                            <img src="assets/images/icons/valet-parking.svg" alt="" width="92px">
+                            <p class="text-center">Boka en hämtning och förbered
+                                dig för att säga adjö</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-theme btn-fill-red lg-btn mt-5">
+                    Sälj den nu
+                    <img src="assets/images/icons/right-arrow.svg" alt="">
+                </button>
+            </div>
+        </section>
+        <!-- END: How to work -->
+
+        <!-- START: Contact Us -->
+        <section class="contact-us section-padding">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-5">
+                    <div class="col">
+                        <div class="image"></div>
+                    </div>
+                    <div class="col">
+                        <h2 class="mb-2 fw-600">
+                            Utvärdera nu!
+                        </h2>
+                        <p class="mb-4 text-gray">Ta reda på vad din bil är värd?</p>
+                        <form id="message-form">
+                            <div class="mb-4">
+                                <label for="name" class="form-label">name</label>
+                                <div class="position-relative">
+                                    <input type="text" name="name" placeholder="Name" class="form-control" id="name">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="form-label">Email address</label>
+                                <div class="position-relative">
+                                    <input type="email" class="form-control" placeholder="you@company.com" id="email"
+                                        aria-describedby="email">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="Telefonnummer">Telefonnummer</label>
+                                <div class="position-relative input-group">
+                                    <span class="input-group-text">SW</span>
+                                    <input type="number" name="name" placeholder="+46 (555) 000-0000"
+                                        class="form-control" id="name">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="name" class="form-label">Registreringsnummer</label>
+                                <div class="position-relative">
+                                    <input type="number" name="Registreringsnummer" placeholder="00000000000"
+                                        class="form-control" id="Registreringsnummer">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="exampleFormControlTextarea1" class="form-label">Meddelande</label>
+                                <div class="position-relative">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="mb-4 form-check">
+                                <div class="position-relative">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                </div>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Du godkänner vår vänliga integritetspolicy.
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-theme btn-fill-red btn-full">
+                                Utvärdera mitt fordon!
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Contact Us -->
+
+        <!-- START: Opinions -->
+        <section class="opinions section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <span class="line mx-auto mb-3"></span>
+                            <h1 class="mb-3">Våra recensioner</h1>
+                            <p class="text-gray mb-5">Kolla in vad våra kunder har berättat för oss. Som alltid försöker
+                                vi
+                                samarbeta med dig
+                                för att bäst passa dina behov.
+                                Vi låter recensionerna visa sig själva.</p>
+                        </div>
+                        <div class="swiper-container">
+                            <div class="swiper opinions-swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card border-0">
+                                            <div class="card-body p-0">
+                                                <h6 class="card-title fw-bold mb-3">Aroun</h6>
+                                                <div class="mb-3 d-flex gap-2 justify-content-center">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star not-checked"
+                                                        alt="">
+                                                </div>
+                                                <p class="text-gray text">
+                                                    Excellent service, Jameela was very
+                                                    detailed in her cleaning, Every thing
+                                                    was done perfectly from the start.
+                                                    Her timing was excellent, Even when
+                                                    we live outside of town. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card border-0">
+                                            <div class="card-body p-0">
+                                                <h6 class="card-title fw-bold mb-3">Aroun</h6>
+                                                <div class="mb-3 d-flex gap-2 justify-content-center">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star not-checked"
+                                                        alt="">
+                                                </div>
+                                                <p class="text-gray text">
+                                                    Excellent service, Jameela was very
+                                                    detailed in her cleaning, Every thing
+                                                    was done perfectly from the start.
+                                                    Her timing was excellent, Even when
+                                                    we live outside of town. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card border-0">
+                                            <div class="card-body p-0">
+                                                <h6 class="card-title fw-bold mb-3">Aroun</h6>
+                                                <div class="mb-3 d-flex gap-2 justify-content-center">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star not-checked"
+                                                        alt="">
+                                                </div>
+                                                <p class="text-gray text">
+                                                    Excellent service, Jameela was very
+                                                    detailed in her cleaning, Every thing
+                                                    was done perfectly from the start.
+                                                    Her timing was excellent, Even when
+                                                    we live outside of town. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card border-0">
+                                            <div class="card-body p-0">
+                                                <h6 class="card-title fw-bold mb-3">Aroun</h6>
+                                                <div class="mb-3 d-flex gap-2 justify-content-center">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star not-checked"
+                                                        alt="">
+                                                </div>
+                                                <p class="text-gray text">
+                                                    Excellent service, Jameela was very
+                                                    detailed in her cleaning, Every thing
+                                                    was done perfectly from the start.
+                                                    Her timing was excellent, Even when
+                                                    we live outside of town. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card border-0">
+                                            <div class="card-body p-0">
+                                                <h6 class="card-title fw-bold mb-3">Aroun</h6>
+                                                <div class="mb-3 d-flex gap-2 justify-content-center">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star" alt="">
+                                                    <img src="assets/images/icons/star.svg" class="star not-checked"
+                                                        alt="">
+                                                </div>
+                                                <p class="text-gray text">
+                                                    Excellent service, Jameela was very
+                                                    detailed in her cleaning, Every thing
+                                                    was done perfectly from the start.
+                                                    Her timing was excellent, Even when
+                                                    we live outside of town. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-gray mb-3 mt-3">Du kanske undrar hur vi når så bra betyg? vi arbetar med dig
+                                för att
+                                säkerställa en högkvalitativ och prisvärd service.</p>
+                            <button type="button" class="btn btn-theme btn-fill-red lg-btn" data-bs-toggle="modal"
+                                data-bs-target="#evaluationModal">
+                                Granska oss
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- END: Opinions -->
+
+    </main>
+
+    <!-- START: Footer -->
+    <footer class="footer">
+        <div class="bg">
+            <div class="container">
+                <div
+                    class="row flex-md-row flex-column-reverse gap-3 gap-md-0 top align-items-center text-md-start text-center">
+                    <div class="col-md-4">
+                        <ul>
+                            <li>
+                                <span
+                                    class="d-flex align-items-center gap-2 justify-content-md-start justify-content-center">
+                                    <svg width="30" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.24375 3.39531L3.73984 0.901563C3.91592 0.724712 4.1252 0.584392 4.35567 0.488665C4.58614 0.392938 4.83325 0.34369 5.08281 0.34375C5.5914 0.34375 6.06953 0.542969 6.42812 0.901563L9.11406 3.5875C9.29091 3.76358 9.43123 3.97286 9.52696 4.20333C9.62269 4.4338 9.67193 4.68091 9.67187 4.93047C9.67187 5.43906 9.47266 5.91719 9.11406 6.27578L7.15 8.23984C7.60974 9.25319 8.24893 10.175 9.03672 10.9609C9.82253 11.7506 10.7443 12.3922 11.7578 12.8547L13.7219 10.8906C13.898 10.7138 14.1072 10.5735 14.3377 10.4777C14.5682 10.382 14.8153 10.3328 15.0648 10.3328C15.5734 10.3328 16.0516 10.532 16.4102 10.8906L19.0984 13.5742C19.2755 13.7506 19.4159 13.9603 19.5117 14.1912C19.6074 14.4221 19.6565 14.6696 19.6562 14.9195C19.6562 15.4281 19.457 15.9062 19.0984 16.2648L16.607 18.7562C16.0352 19.3305 15.2453 19.6562 14.4344 19.6562C14.2633 19.6562 14.0992 19.6422 13.9375 19.6141C10.7781 19.0938 7.64453 17.4133 5.11562 14.8867C2.58906 12.3625 0.910936 9.23125 0.383593 6.0625C0.224218 5.09453 0.545311 4.09844 1.24375 3.39531Z"
+                                            fill="#D31B1B" />
+                                    </svg>
+                                    <h6>+46 79 077 87 88</h6>
+                                </span>
+                            </li>
+                            <li>
+                                <span
+                                    class="d-flex align-items-center gap-2 justify-content-md-start justify-content-center">
+                                    <svg width="30" height="16" viewBox="0 0 21 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M2.64418 0.800049H18.5442C20.0442 0.800049 20.8002 1.50805 20.8002 2.94805V13.052C20.8002 14.48 20.0442 15.2 18.5442 15.2H2.64418C1.14418 15.2 0.388184 14.48 0.388184 13.052V2.94805C0.388184 1.50805 1.14418 0.800049 2.64418 0.800049ZM10.5882 11.12L18.6762 4.48405C18.9642 4.24405 19.1922 3.69205 18.8322 3.20005C18.4842 2.70805 17.8482 2.69605 17.4282 2.99605L10.5882 7.62805L3.76018 2.99605C3.34018 2.69605 2.70418 2.70805 2.35618 3.20005C1.99618 3.69205 2.22418 4.24405 2.51218 4.48405L10.5882 11.12Z"
+                                            fill="#D31B1B" />
+                                    </svg>
+                                    <h6>Bil173@hotmail.com</h6>
+                                </span>
+                            </li>
+                            <li>
+                                <span
+                                    class="d-flex align-items-center gap-2 justify-content-md-start justify-content-center">
+                                    <svg width="30" height="19" viewBox="0 0 14 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.13594 18.525C4.23281 16.1426 0 10.3684 0 7.125C0 3.18992 3.13396 0 7 0C10.8646 0 14 3.18992 14 7.125C14 10.3684 9.73438 16.1426 7.86406 18.525C7.41562 19.0928 6.58437 19.0928 6.13594 18.525ZM7 9.5C8.28698 9.5 9.33333 8.43496 9.33333 7.125C9.33333 5.81504 8.28698 4.75 7 4.75C5.71302 4.75 4.66667 5.81504 4.66667 7.125C4.66667 8.43496 5.71302 9.5 7 9.5Z"
+                                            fill="#D31B1B" />
+                                    </svg>
+                                    <h6>Sverige</h6>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="mb-3 fw-medium">Länkar</h5>
+                        <ul class="links">
+                            <li><a href="#">Om oss</a></li>
+                            <li><a href="#">Hur det fungerar</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="text-md-end">
+                            <img src="assets/images/logo.svg" alt="light-logo" class="section-img">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="row bottom py-4 align-items-center">
+                    <div class="col-lg-6 text-lg-start text-center">
+                        <div
+                            class="d-flex align-items-center gap-4 flex-wrap justify-content-md-start justify-content-center">
+                            <p>Följ här</p>
+                            <div class="social dark">
+                                <a href="#">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20 14.19C20 17.83 17.83 20 14.19 20H13C12.45 20 12 19.55 12 19V13.23C12 12.96 12.22 12.73 12.49 12.73L14.25 12.7C14.39 12.69 14.51 12.59 14.54 12.45L14.89 10.54C14.8968 10.4967 14.8941 10.4525 14.8822 10.4103C14.8702 10.3681 14.8492 10.3291 14.8207 10.2958C14.7922 10.2625 14.7568 10.2358 14.717 10.2176C14.6771 10.1993 14.6338 10.1899 14.59 10.19L12.46 10.22C12.18 10.22 11.96 10 11.95 9.73L11.91 7.28C11.91 7.12 12.04 6.98 12.21 6.98L14.61 6.94C14.78 6.94 14.91 6.81 14.91 6.64L14.87 4.24C14.87 4.07 14.74 3.94 14.57 3.94L11.87 3.98C11.4759 3.98599 11.0868 4.06969 10.725 4.22632C10.3633 4.38295 10.0361 4.60942 9.76201 4.89276C9.48796 5.1761 9.27252 5.51073 9.12803 5.87748C8.98354 6.24422 8.91285 6.63588 8.92 7.03L8.97 9.78C8.98 10.06 8.76 10.28 8.48 10.29L7.28 10.31C7.11 10.31 6.98 10.44 6.98 10.61L7.01 12.51C7.01 12.68 7.14 12.81 7.31 12.81L8.51 12.79C8.79 12.79 9.01 13.01 9.02 13.28L9.11 18.98C9.12 19.54 8.67 20 8.11 20H5.81C2.17 20 0 17.83 0 14.18V5.81C0 2.17 2.17 0 5.81 0H14.19C17.83 0 20 2.17 20 5.81V14.19Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.18C0 17.83 2.17 20 5.81 20H14.18C17.82 20 19.99 17.83 19.99 14.19V5.81C20 2.17 17.83 0 14.19 0ZM10 13.88C7.86 13.88 6.12 12.14 6.12 10C6.12 7.86 7.86 6.12 10 6.12C12.14 6.12 13.88 7.86 13.88 10C13.88 12.14 12.14 13.88 10 13.88ZM15.92 4.88C15.87 5 15.8 5.11 15.71 5.21C15.61 5.3 15.5 5.37 15.38 5.42C15.198 5.49725 14.9971 5.51853 14.803 5.48113C14.6089 5.44372 14.4303 5.34933 14.29 5.21C14.2 5.11 14.13 5 14.08 4.88C14.0286 4.75982 14.0015 4.63069 14 4.5C14 4.37 14.03 4.24 14.08 4.12C14.13 3.99 14.2 3.89 14.29 3.79C14.52 3.56 14.87 3.45 15.19 3.52C15.26 3.53 15.32 3.55 15.38 3.58C15.44 3.6 15.5 3.63 15.56 3.67C15.61 3.7 15.66 3.75 15.71 3.79C15.8 3.89 15.87 3.99 15.92 4.12C15.97 4.24 16 4.37 16 4.5C16 4.63 15.97 4.76 15.92 4.88Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.9869 0C12.5113 0 13.9395 0.289128 15.2712 0.867383C16.6029 1.44564 17.7682 2.22979 18.767 3.21983C19.7658 4.20988 20.5544 5.37077 21.1326 6.70251C21.7109 8.03425 22 9.46237 22 10.9869C22 12.5113 21.7109 13.9395 21.1326 15.2712C20.5544 16.6029 19.7658 17.7682 18.767 18.767C17.7682 19.7658 16.6029 20.5544 15.2712 21.1326C13.9395 21.7109 12.5113 22 10.9869 22C9.46237 22 8.03425 21.7109 6.70251 21.1326C5.37077 20.5544 4.20988 19.7658 3.21983 18.767C2.22979 17.7682 1.44564 16.6029 0.867383 15.2712C0.289128 13.9395 0 12.5113 0 10.9869C0 9.46237 0.289128 8.03425 0.867383 6.70251C1.44564 5.37077 2.22979 4.20988 3.21983 3.21983C4.20988 2.22979 5.37077 1.44564 6.70251 0.867383C8.03425 0.289128 9.46237 0 10.9869 0ZM16.454 8.62127C16.9622 8.23576 17.409 7.77141 17.7945 7.2282C17.5492 7.33333 17.2995 7.42095 17.0454 7.49104C16.7913 7.56113 16.5241 7.6137 16.2437 7.64875C16.5241 7.47352 16.7694 7.25886 16.9797 7.00478C17.19 6.7507 17.3389 6.47471 17.4265 6.17682C17.1637 6.31701 16.8921 6.44405 16.6117 6.55794C16.3313 6.67184 16.0422 6.75508 15.7443 6.80765C15.499 6.56233 15.2099 6.36081 14.8769 6.20311C14.544 6.0454 14.176 5.96655 13.773 5.96655C13.405 5.96655 13.0589 6.03664 12.7348 6.17682C12.4106 6.31701 12.1302 6.50976 11.8937 6.75508C11.6571 7.0004 11.4687 7.28515 11.3286 7.60932C11.1884 7.93349 11.1183 8.27957 11.1183 8.64755C11.1183 8.75269 11.1227 8.85783 11.1314 8.96296C11.1402 9.0681 11.1533 9.16448 11.1708 9.25209C10.0669 9.19952 9.04182 8.92792 8.09558 8.43728C7.14934 7.94663 6.34329 7.28953 5.67742 6.46595C5.4321 6.86898 5.30944 7.31581 5.30944 7.80645C5.30944 8.26205 5.41896 8.68698 5.63799 9.08124C5.85703 9.47551 6.14178 9.7953 6.49223 10.0406C6.03664 10.0056 5.63361 9.89168 5.28315 9.69892V9.72521C5.28315 10.3911 5.48905 10.965 5.90084 11.4468C6.31262 11.9287 6.82517 12.231 7.43847 12.3536C7.31581 12.3887 7.19753 12.415 7.08363 12.4325C6.96973 12.45 6.85145 12.4588 6.72879 12.4588C6.64118 12.4588 6.55794 12.4544 6.47909 12.4456C6.40024 12.4369 6.31701 12.4237 6.22939 12.4062C6.40462 12.9319 6.71565 13.37 7.16249 13.7204C7.60932 14.0709 8.13062 14.2461 8.7264 14.2461C8.27081 14.6141 7.75826 14.8988 7.18877 15.1004C6.61928 15.3019 6.02788 15.4026 5.41458 15.4026C5.29192 15.4026 5.17802 15.3982 5.07288 15.3895C4.96774 15.3807 4.8626 15.3676 4.75747 15.3501C5.35325 15.7356 5.99721 16.0335 6.68937 16.2437C7.38152 16.454 8.10434 16.5591 8.85783 16.5591C10.0844 16.5591 11.1708 16.327 12.1171 15.8626C13.0633 15.3982 13.8562 14.8025 14.4958 14.0753C15.1354 13.3481 15.6217 12.5333 15.9546 11.6308C16.2875 10.7284 16.454 9.83911 16.454 8.96296V8.62127Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.9869 0C12.5113 0 13.9395 0.289128 15.2712 0.867383C16.6029 1.44564 17.7682 2.22979 18.767 3.21983C19.7658 4.20988 20.5544 5.37077 21.1326 6.70251C21.7109 8.03425 22 9.46237 22 10.9869C22 12.5113 21.7109 13.9395 21.1326 15.2712C20.5544 16.6029 19.7658 17.7682 18.767 18.767C17.7682 19.7658 16.6029 20.5544 15.2712 21.1326C13.9395 21.7109 12.5113 22 10.9869 22C9.46237 22 8.03425 21.7109 6.70251 21.1326C5.37077 20.5544 4.20988 19.7658 3.21983 18.767C2.22979 17.7682 1.44564 16.6029 0.867383 15.2712C0.289128 13.9395 0 12.5113 0 10.9869C0 9.46237 0.289128 8.03425 0.867383 6.70251C1.44564 5.37077 2.22979 4.20988 3.21983 3.21983C4.20988 2.22979 5.37077 1.44564 6.70251 0.867383C8.03425 0.289128 9.46237 0 10.9869 0ZM7.56989 8.25329H4.81004V17.19H7.56989V8.25329ZM6.17682 7.54361C6.56233 7.54361 6.89088 7.41219 7.16249 7.14934C7.43409 6.8865 7.56989 6.56233 7.56989 6.17682C7.56989 5.79132 7.43409 5.46714 7.16249 5.2043C6.89088 4.94146 6.56233 4.81004 6.17682 4.81004C5.79132 4.81004 5.46714 4.94146 5.2043 5.2043C4.94146 5.46714 4.81004 5.79132 4.81004 6.17682C4.81004 6.56233 4.94146 6.8865 5.2043 7.14934C5.46714 7.41219 5.79132 7.54361 6.17682 7.54361ZM17.19 12.0119C17.19 11.3811 17.0147 10.7634 16.6643 10.1589C16.3138 9.55436 15.8582 9.09438 15.2975 8.77897C14.7893 8.49861 14.1979 8.34966 13.5233 8.33214C12.8487 8.31462 12.231 8.42851 11.6703 8.67383V8.25329H8.93668V17.19H11.6703V11.7228L12.8268 11.1708C12.9669 11.1008 13.1553 11.0657 13.3919 11.0657C13.6284 11.0657 13.8168 11.1095 13.957 11.1971C14.0621 11.2497 14.1673 11.3636 14.2724 11.5388C14.3775 11.7141 14.4301 11.8718 14.4301 12.0119V17.19H17.19V12.0119Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM15.31 13.31C15.02 13.47 14.78 13.54 14.58 13.59C14.41 13.63 14.27 13.67 14.15 13.75C14.02 13.83 14.01 13.96 13.99 14.08C13.97 14.19 13.96 14.28 13.88 14.34C13.79 14.4 13.62 14.41 13.39 14.42C13.09 14.44 12.71 14.45 12.25 14.59C12.03 14.67 11.83 14.79 11.63 14.91C11.23 15.16 10.78 15.43 9.99 15.43C9.21 15.43 8.76 15.16 8.36 14.91C8.16 14.78 7.96 14.66 7.73 14.58C7.35981 14.4703 6.97608 14.4131 6.59 14.41C6.36 14.4 6.2 14.39 6.1 14.33C6.02 14.28 6.01 14.18 5.99 14.07C5.97 13.95 5.96 13.82 5.83 13.74C5.71 13.66 5.56 13.62 5.4 13.57C5.2 13.52 4.96 13.46 4.67 13.3C4.33 13.11 4.53 13 4.64 12.94C6.57 12.01 6.87 10.57 6.88 10.46V10.44C6.9 10.32 6.91 10.22 6.77 10.09C6.68 10 6.37 9.8 6.12 9.64C6.01 9.56 5.91 9.5 5.85 9.47C5.57 9.27 5.45 9.08 5.54 8.83C5.6 8.66 5.76 8.6 5.92 8.6C5.97 8.6 6.03 8.61 6.07 8.62C6.25 8.66 6.43 8.73 6.59 8.79C6.7 8.84 6.79 8.87 6.86 8.89C6.88 8.9 6.91 8.9 6.92 8.9C7.02 8.9 7.05 8.85 7.04 8.75C7.04 8.72 7.04 8.69 7.03 8.66C7.01 8.31 6.98 7.7 7.02 7.14C7.1 6.3 7.37 5.87 7.69 5.51C7.85 5.33 8.58 4.56 9.97 4.56C11.37 4.56 12.09 5.33 12.25 5.5C12.57 5.87 12.84 6.29 12.92 7.14C12.97 7.73 12.93 8.36 12.9 8.71V8.74C12.89 8.85 12.92 8.89 13.02 8.89C13.04 8.89 13.06 8.89 13.08 8.88C13.15 8.86 13.24 8.83 13.35 8.79C13.5 8.73 13.68 8.66 13.87 8.62C13.92 8.6 13.97 8.6 14.02 8.6C14.19 8.6 14.34 8.67 14.4 8.84C14.49 9.08 14.37 9.27 14.09 9.47C14.04 9.51 13.94 9.58 13.82 9.64C13.58 9.8 13.26 10 13.17 10.09C13.03 10.22 13.04 10.32 13.06 10.44V10.46C13.08 10.57 13.38 12.01 15.3 12.94C15.45 13 15.65 13.12 15.31 13.31Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-lg-end text-center">
+                        <p class="text-gray">Cardrop Sverige AB. Alla rättigheter förbehållna</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END: Footer -->
+
+    <!-- START: contact pin in footer -->
+    <div class="contact-pin-in-footer">
+        <div class="social light mb-3">
+            <a href="#">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20 14.19C20 17.83 17.83 20 14.19 20H13C12.45 20 12 19.55 12 19V13.23C12 12.96 12.22 12.73 12.49 12.73L14.25 12.7C14.39 12.69 14.51 12.59 14.54 12.45L14.89 10.54C14.8968 10.4967 14.8941 10.4525 14.8822 10.4103C14.8702 10.3681 14.8492 10.3291 14.8207 10.2958C14.7922 10.2625 14.7568 10.2358 14.717 10.2176C14.6771 10.1993 14.6338 10.1899 14.59 10.19L12.46 10.22C12.18 10.22 11.96 10 11.95 9.73L11.91 7.28C11.91 7.12 12.04 6.98 12.21 6.98L14.61 6.94C14.78 6.94 14.91 6.81 14.91 6.64L14.87 4.24C14.87 4.07 14.74 3.94 14.57 3.94L11.87 3.98C11.4759 3.98599 11.0868 4.06969 10.725 4.22632C10.3633 4.38295 10.0361 4.60942 9.76201 4.89276C9.48796 5.1761 9.27252 5.51073 9.12803 5.87748C8.98354 6.24422 8.91285 6.63588 8.92 7.03L8.97 9.78C8.98 10.06 8.76 10.28 8.48 10.29L7.28 10.31C7.11 10.31 6.98 10.44 6.98 10.61L7.01 12.51C7.01 12.68 7.14 12.81 7.31 12.81L8.51 12.79C8.79 12.79 9.01 13.01 9.02 13.28L9.11 18.98C9.12 19.54 8.67 20 8.11 20H5.81C2.17 20 0 17.83 0 14.18V5.81C0 2.17 2.17 0 5.81 0H14.19C17.83 0 20 2.17 20 5.81V14.19Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14.19 0H5.81C2.17 0 0 2.17 0 5.81V14.18C0 17.83 2.17 20 5.81 20H14.18C17.82 20 19.99 17.83 19.99 14.19V5.81C20 2.17 17.83 0 14.19 0ZM10 13.88C7.86 13.88 6.12 12.14 6.12 10C6.12 7.86 7.86 6.12 10 6.12C12.14 6.12 13.88 7.86 13.88 10C13.88 12.14 12.14 13.88 10 13.88ZM15.92 4.88C15.87 5 15.8 5.11 15.71 5.21C15.61 5.3 15.5 5.37 15.38 5.42C15.198 5.49725 14.9971 5.51853 14.803 5.48113C14.6089 5.44372 14.4303 5.34933 14.29 5.21C14.2 5.11 14.13 5 14.08 4.88C14.0286 4.75982 14.0015 4.63069 14 4.5C14 4.37 14.03 4.24 14.08 4.12C14.13 3.99 14.2 3.89 14.29 3.79C14.52 3.56 14.87 3.45 15.19 3.52C15.26 3.53 15.32 3.55 15.38 3.58C15.44 3.6 15.5 3.63 15.56 3.67C15.61 3.7 15.66 3.75 15.71 3.79C15.8 3.89 15.87 3.99 15.92 4.12C15.97 4.24 16 4.37 16 4.5C16 4.63 15.97 4.76 15.92 4.88Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10.9869 0C12.5113 0 13.9395 0.289128 15.2712 0.867383C16.6029 1.44564 17.7682 2.22979 18.767 3.21983C19.7658 4.20988 20.5544 5.37077 21.1326 6.70251C21.7109 8.03425 22 9.46237 22 10.9869C22 12.5113 21.7109 13.9395 21.1326 15.2712C20.5544 16.6029 19.7658 17.7682 18.767 18.767C17.7682 19.7658 16.6029 20.5544 15.2712 21.1326C13.9395 21.7109 12.5113 22 10.9869 22C9.46237 22 8.03425 21.7109 6.70251 21.1326C5.37077 20.5544 4.20988 19.7658 3.21983 18.767C2.22979 17.7682 1.44564 16.6029 0.867383 15.2712C0.289128 13.9395 0 12.5113 0 10.9869C0 9.46237 0.289128 8.03425 0.867383 6.70251C1.44564 5.37077 2.22979 4.20988 3.21983 3.21983C4.20988 2.22979 5.37077 1.44564 6.70251 0.867383C8.03425 0.289128 9.46237 0 10.9869 0ZM16.454 8.62127C16.9622 8.23576 17.409 7.77141 17.7945 7.2282C17.5492 7.33333 17.2995 7.42095 17.0454 7.49104C16.7913 7.56113 16.5241 7.6137 16.2437 7.64875C16.5241 7.47352 16.7694 7.25886 16.9797 7.00478C17.19 6.7507 17.3389 6.47471 17.4265 6.17682C17.1637 6.31701 16.8921 6.44405 16.6117 6.55794C16.3313 6.67184 16.0422 6.75508 15.7443 6.80765C15.499 6.56233 15.2099 6.36081 14.8769 6.20311C14.544 6.0454 14.176 5.96655 13.773 5.96655C13.405 5.96655 13.0589 6.03664 12.7348 6.17682C12.4106 6.31701 12.1302 6.50976 11.8937 6.75508C11.6571 7.0004 11.4687 7.28515 11.3286 7.60932C11.1884 7.93349 11.1183 8.27957 11.1183 8.64755C11.1183 8.75269 11.1227 8.85783 11.1314 8.96296C11.1402 9.0681 11.1533 9.16448 11.1708 9.25209C10.0669 9.19952 9.04182 8.92792 8.09558 8.43728C7.14934 7.94663 6.34329 7.28953 5.67742 6.46595C5.4321 6.86898 5.30944 7.31581 5.30944 7.80645C5.30944 8.26205 5.41896 8.68698 5.63799 9.08124C5.85703 9.47551 6.14178 9.7953 6.49223 10.0406C6.03664 10.0056 5.63361 9.89168 5.28315 9.69892V9.72521C5.28315 10.3911 5.48905 10.965 5.90084 11.4468C6.31262 11.9287 6.82517 12.231 7.43847 12.3536C7.31581 12.3887 7.19753 12.415 7.08363 12.4325C6.96973 12.45 6.85145 12.4588 6.72879 12.4588C6.64118 12.4588 6.55794 12.4544 6.47909 12.4456C6.40024 12.4369 6.31701 12.4237 6.22939 12.4062C6.40462 12.9319 6.71565 13.37 7.16249 13.7204C7.60932 14.0709 8.13062 14.2461 8.7264 14.2461C8.27081 14.6141 7.75826 14.8988 7.18877 15.1004C6.61928 15.3019 6.02788 15.4026 5.41458 15.4026C5.29192 15.4026 5.17802 15.3982 5.07288 15.3895C4.96774 15.3807 4.8626 15.3676 4.75747 15.3501C5.35325 15.7356 5.99721 16.0335 6.68937 16.2437C7.38152 16.454 8.10434 16.5591 8.85783 16.5591C10.0844 16.5591 11.1708 16.327 12.1171 15.8626C13.0633 15.3982 13.8562 14.8025 14.4958 14.0753C15.1354 13.3481 15.6217 12.5333 15.9546 11.6308C16.2875 10.7284 16.454 9.83911 16.454 8.96296V8.62127Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10.9869 0C12.5113 0 13.9395 0.289128 15.2712 0.867383C16.6029 1.44564 17.7682 2.22979 18.767 3.21983C19.7658 4.20988 20.5544 5.37077 21.1326 6.70251C21.7109 8.03425 22 9.46237 22 10.9869C22 12.5113 21.7109 13.9395 21.1326 15.2712C20.5544 16.6029 19.7658 17.7682 18.767 18.767C17.7682 19.7658 16.6029 20.5544 15.2712 21.1326C13.9395 21.7109 12.5113 22 10.9869 22C9.46237 22 8.03425 21.7109 6.70251 21.1326C5.37077 20.5544 4.20988 19.7658 3.21983 18.767C2.22979 17.7682 1.44564 16.6029 0.867383 15.2712C0.289128 13.9395 0 12.5113 0 10.9869C0 9.46237 0.289128 8.03425 0.867383 6.70251C1.44564 5.37077 2.22979 4.20988 3.21983 3.21983C4.20988 2.22979 5.37077 1.44564 6.70251 0.867383C8.03425 0.289128 9.46237 0 10.9869 0ZM7.56989 8.25329H4.81004V17.19H7.56989V8.25329ZM6.17682 7.54361C6.56233 7.54361 6.89088 7.41219 7.16249 7.14934C7.43409 6.8865 7.56989 6.56233 7.56989 6.17682C7.56989 5.79132 7.43409 5.46714 7.16249 5.2043C6.89088 4.94146 6.56233 4.81004 6.17682 4.81004C5.79132 4.81004 5.46714 4.94146 5.2043 5.2043C4.94146 5.46714 4.81004 5.79132 4.81004 6.17682C4.81004 6.56233 4.94146 6.8865 5.2043 7.14934C5.46714 7.41219 5.79132 7.54361 6.17682 7.54361ZM17.19 12.0119C17.19 11.3811 17.0147 10.7634 16.6643 10.1589C16.3138 9.55436 15.8582 9.09438 15.2975 8.77897C14.7893 8.49861 14.1979 8.34966 13.5233 8.33214C12.8487 8.31462 12.231 8.42851 11.6703 8.67383V8.25329H8.93668V17.19H11.6703V11.7228L12.8268 11.1708C12.9669 11.1008 13.1553 11.0657 13.3919 11.0657C13.6284 11.0657 13.8168 11.1095 13.957 11.1971C14.0621 11.2497 14.1673 11.3636 14.2724 11.5388C14.3775 11.7141 14.4301 11.8718 14.4301 12.0119V17.19H17.19V12.0119Z"
+                        fill="white" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM15.31 13.31C15.02 13.47 14.78 13.54 14.58 13.59C14.41 13.63 14.27 13.67 14.15 13.75C14.02 13.83 14.01 13.96 13.99 14.08C13.97 14.19 13.96 14.28 13.88 14.34C13.79 14.4 13.62 14.41 13.39 14.42C13.09 14.44 12.71 14.45 12.25 14.59C12.03 14.67 11.83 14.79 11.63 14.91C11.23 15.16 10.78 15.43 9.99 15.43C9.21 15.43 8.76 15.16 8.36 14.91C8.16 14.78 7.96 14.66 7.73 14.58C7.35981 14.4703 6.97608 14.4131 6.59 14.41C6.36 14.4 6.2 14.39 6.1 14.33C6.02 14.28 6.01 14.18 5.99 14.07C5.97 13.95 5.96 13.82 5.83 13.74C5.71 13.66 5.56 13.62 5.4 13.57C5.2 13.52 4.96 13.46 4.67 13.3C4.33 13.11 4.53 13 4.64 12.94C6.57 12.01 6.87 10.57 6.88 10.46V10.44C6.9 10.32 6.91 10.22 6.77 10.09C6.68 10 6.37 9.8 6.12 9.64C6.01 9.56 5.91 9.5 5.85 9.47C5.57 9.27 5.45 9.08 5.54 8.83C5.6 8.66 5.76 8.6 5.92 8.6C5.97 8.6 6.03 8.61 6.07 8.62C6.25 8.66 6.43 8.73 6.59 8.79C6.7 8.84 6.79 8.87 6.86 8.89C6.88 8.9 6.91 8.9 6.92 8.9C7.02 8.9 7.05 8.85 7.04 8.75C7.04 8.72 7.04 8.69 7.03 8.66C7.01 8.31 6.98 7.7 7.02 7.14C7.1 6.3 7.37 5.87 7.69 5.51C7.85 5.33 8.58 4.56 9.97 4.56C11.37 4.56 12.09 5.33 12.25 5.5C12.57 5.87 12.84 6.29 12.92 7.14C12.97 7.73 12.93 8.36 12.9 8.71V8.74C12.89 8.85 12.92 8.89 13.02 8.89C13.04 8.89 13.06 8.89 13.08 8.88C13.15 8.86 13.24 8.83 13.35 8.79C13.5 8.73 13.68 8.66 13.87 8.62C13.92 8.6 13.97 8.6 14.02 8.6C14.19 8.6 14.34 8.67 14.4 8.84C14.49 9.08 14.37 9.27 14.09 9.47C14.04 9.51 13.94 9.58 13.82 9.64C13.58 9.8 13.26 10 13.17 10.09C13.03 10.22 13.04 10.32 13.06 10.44V10.46C13.08 10.57 13.38 12.01 15.3 12.94C15.45 13 15.65 13.12 15.31 13.31Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 justify-content-between">
+            <span class="d-flex align-items-center gap-2">
+                <img src="assets/images/icons/mail.svg" alt="">
+                <p>Bil173@hotmail.com</p>
+            </span>
+            <span class="d-flex align-items-center gap-2">
+                <img src="assets/images/icons/phone.svg" alt="">
+                <p>+46 79 077 87 88</p>
+            </span>
+        </div>
+
+    </div>
+    <!-- END: contact pin in footer -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" style="display: none;" id="evaluationModal" tabindex="-1" aria-labelledby="evaluationModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header justify-content-center">
+                    <h1 class="modal-title fs-5 fw-medium" id="exampleModalLabel">Granska oss!</h1>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="form-label">name</label>
+                            <div class="position-relative">
+                                <input type="text" name="name" placeholder="Name" class="form-control" id="name">
+                            </div>
+                        </div>
+                        <div class="mb-4 text-center">
+                            <div class="rating">
+                                <label>
+                                    <input type="radio" name="stars" value="1" />
+                                    <span class="icon">★</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="stars" value="2" />
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="stars" value="3" />
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="stars" value="4" />
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                </label>
+                                <label>
+                                    <input type="radio" name="stars" value="5" />
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                    <span class="icon">★</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="exampleFormControlTextarea1" class="form-label">Meddelande</label>
+                            <div class="position-relative">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-theme btn-fill-red btn-full">
+                            Skicka recension
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Included Libraries -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

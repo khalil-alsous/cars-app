@@ -1,0 +1,29 @@
+.main-navbar {
+  border: none;
+  background-color: var(--white-color);
+  padding: 14px 0;
+  .navbar-toggler {
+    border: none;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: var(--main-black-color);
+        font-family: var(--main-font-medium);
+        position: relative;
+        @media (min-width: 1150px) {
+          & {
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+        }
+        &:not(.active):hover {
+          color: var(--text-hover);
+        }
+      }
+    }
+  }
+}
