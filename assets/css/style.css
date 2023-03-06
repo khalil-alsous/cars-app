@@ -513,8 +513,8 @@ form .form-control + .error {
   color: var(--text-hover);
   padding-right: 10px;
 }
-.footer .bottom {
-  border-top: 0.5px solid rgba(1, 26, 45, 0.2);
+.footer .top {
+  border-bottom: 0.5px solid rgba(1, 26, 45, 0.2);
 }
 @media (min-width: 1600px) {
   .footer .bottom {
@@ -535,7 +535,6 @@ section.contact {
 
 section.hero {
   height: 100%;
-  background-image: url(../images/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -561,7 +560,6 @@ section.contact-us {
 section.contact-us .image {
   height: 100%;
   border-radius: 8px;
-  background-image: url(../images/contact-us.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -573,7 +571,6 @@ section.contact-us .image {
 }
 
 section.opinions {
-  background-image: url("../images/opinions.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
